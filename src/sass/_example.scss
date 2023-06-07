@@ -26,3 +26,31 @@
   background-size: cover;
   background-position: center;
 }
+
+.loader_circle {
+  width: 24px;
+  height: 24px;
+  border: 2px dotted #000;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotation 2s linear infinite;
+  vertical-align:middle;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
+.breed-select {
+  width:50%;
+}
+
+.cat-info
+{display: flex; width:50%; gap: 10px; align-items: center; justify-content: center;}
